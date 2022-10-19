@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-size: 30px;
+    background-color: beige;
+}
+
+header {
+    background-color: peru;
+    padding: 10px 10px;
+}
+
+h1 {
+    font-size: 30px;
+    color: aliceblue ;
+}
+
+input {
+    font-size: 30px;
+    background-color: bisque;
+}
+
+.block {
+    width: 40px;
+    height: 40px;
+    vertical-align:middle;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+input[value="○"] {
+    color: red;
+}
+
+input[value="×"] {
+    color: blue;
+}
+
+#reset {
+    background-color: azure;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
